@@ -15,9 +15,9 @@ public class Main {
         ArrayList<Talkable> zoo = new ArrayList<>();
 
         // Lines to Replace
-        zoo.add(new Dog(true, "Pete"));
-        zoo.add(new Cat(9, "Anne Belly"));
-        zoo.add(new Student(19, "Joe John Johnson"));
+        
+      AnimalInput ai  = new AnimalInput();
+    zoo = ai.userInput();
         // End Lines to Replace
 
         for (Talkable thing : zoo) {
